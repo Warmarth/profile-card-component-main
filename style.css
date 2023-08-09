@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(28, 120, 120);
+  background-image: url("./images/bg-pattern-top.svg"),
+    url("./images/bg-pattern-bottom.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-position: right 45vw bottom 45vh, left 45vw top 45vh;
+}
+
+.section {
+  background-color: rgb(252, 252, 252);
+  width: 400px;
+  height: 450px;
+  border-radius: 20px;
+  margin: auto;
+  margin-bottom: 1rem;
+  font-family: "Roboto";
+}
+
+.image {
+  background: url("./images/bg-pattern-card.svg");
+  height: 10rem;
+  display: grid;
+  place-items: center;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.vic-container {
+  background-color: aliceblue;
+  width: 130px;
+  height: 130px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  transform: translate(0%, 80px);
+}
+.victor {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.profile {
+  margin: 5rem auto 2rem;
+  text-align: center;
+}
+.name {
+  margin-bottom: 0.8rem;
+}
+.age {
+  padding-left: 1rem;
+}
+.place,
+.age {
+  color: gray;
+  font-size: 1.1rem;
+}
+
+.article {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+  text-align: center;
+}
+.accolade h1 {
+  font-size: 1.7rem;
+}
+.accolade span {
+  color: rgba(102, 109, 109, 0.6);
+  letter-spacing: 2px;
+  font-size: 0.9rem;
+}
